@@ -1,0 +1,30 @@
+.base-information {
+  .title {
+    font-size: 30px;
+    font-weight: inherit;
+    color: #333;
+    padding-bottom: 10px;
+  }
+
+  .row {
+    margin-top: 20px;
+
+    .left-item {
+      float: left;
+      width: 340px;
+      font-size: 14px;
+    }
+    .right-item {
+      float: left;
+    }
+
+    .item-title {
+      color: #999;
+    }
+
+    .desc {
+      color: #333;
+    }
+  }
+}
+

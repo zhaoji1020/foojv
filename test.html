@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <title>福居</title>
+    <meta name="description" content="福居网主打二手房信息展示,为您提供真实的二手房源及二手房详细地买卖信息,每天持续更新二手房源信息供您查询。您可以免费查找二手房买卖信息,请到呼和浩特福居网看房选房。">
+    <meta name="keywords" content="呼和浩特二手房,二手房源,二手房买卖,二手房网,二手房出售,二手房求购,百度地图找房,呼和浩特小区,呼和浩特新楼盘,呼和浩特新楼盘">
+    <link rel="stylesheet" href="lib/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/index.min.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .top-ad-swiper {
+            overflow: hidden;
+        }
+
+        .topAd img {
+            cursor: pointer;
+        }
+
+        .house-img img {
+            min-height: 257px;
+        }
+    </style>
+</head>
+<body>
+<!--全屏广告开始-->
+<div style="display: none" class="topAd">
+    <i class="closeBtn iconfont icon-guanbi"></i>
+    <img src="" alt="" width="100%" height="100%">
+    <div class="ad"></div>
+</div>
+<!--全屏广告结束-->
+<div style="display: none" class="container">
+    <!--头部-->
+    <div class="header2">
+        <div class="header">
+            <div class="top">
+                    <span class="login">
+                        <a href="javascript:;">请登录</a>
+                    </span>
+                <span class="register">
+                        <a href="javascript:;">立即注册</a>
+                    </span>
+            </div>
+            <div class="bottom clearfix">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png">
+                    </a>
+                </div>
+                <div class="select-city">
+                        <span>呼和浩特
+                            <!--<span class="sss"></span>-->
+                            <i class="iconfont icon-jiantouxia"></i>
+                        </span>
+                </div>
+                <div class="nav clearfix">
+                        <span class="nav-item active">
+                            <a href="index.html">首页</a>
+                        </span>
+                    <span class="nav-item">
+                            <a href="secondHandHousingList.html">二手房</a>
+                        </span>
+                    <span class="nav-item">
+                            <a href="newHouseIndex.html">新房</a>
+                        </span>
+                    <span class="nav-item">
+                            <a href="rentalList.html">租房</a>
+                        </span>
+                    <span class="nav-item">
+                            <a href="secondSchoolHomesList.html">学区房</a>
+                        </span>
+                    <span class="nav-item">
+                            <a href="residentialQuartersList.html">小区</a>
+                        </span>
+                    <span class="nav-item">
+                            <a href="brokerList.html">经纪人</a>
+                        </span>
+                    <span class="nav-item">
+                            <a href="encyclopedias.html">百科</a>
+                        </span>
+                    <span class="nav-item spinner">
+                            <a class="toggle">在线委托</a>
+                            <div class="spinner-content">
+                                <div>
+                                    <a href="homeOwer.html">我是业主</a>
+                                </div>
+                                <div>
+                                    <a href="huntHouse.html">帮我找房</a>
+                                </div>
+                            </div>
+                        </span>
+                    <span class="nav-item">
+                            <a href="tool.html">工具</a>
+                        </span>
+                    <span class="nav-item">
+                            <a href="special.html">专题</a>
+                        </span>
+                </div>
+                <!-- <div class="nav clearfix">
+            <span class="nav-item"><a  href="">首页</a></span>
+            <span class="nav-item"><a  href="">二手房</a></span>
+            <span class="nav-item"><a  href="">新房</a></span>
+           <span class="nav-item"> <a  href="">租房</a> </span>
+            <span class="nav-item"><a  href="">学区房</a></span>
+            <span class="nav-item"><a  href="">小区</a></span>
+            <span class="nav-item"><a  href="">经纪人</a></span>
+           <span class="nav-item"> <a  href="">百科</a></span>
+            <span class="nav-item spinner">
+                <span class="toggle">在线委托</span>
+                <div class="spinner-content">
+                    <div><a  href="">我是业主</a></div>
+                    <div><a  href="">帮我找房</a></div>
+                </div>
+            </span>
+            <span class="nav-item"> <a  href="">工具</a> </span>
+            <span class="nav-item"> <a  href="">专题</a> </span>
+        </div>--></div>
+        </div>
+    </div>
+    <!--头部-->
+    <!--头部广告banner-->
+    <div class="top-banner" style="">
+        <div class="top-ad-swiper" style="height: 100%">
+            <div class="swiper-wrapper">
+                <!--<div class="swiper-slide"><img src="img/big3.png" alt=""></div>
+            <div class="swiper-slide"><img src="img/big3.png" alt=""></div>
+            <div class="swiper-slide"><img src="img/big3.png" alt=""></div>--></div>
+        </div>
+        <div class="mask"></div>
+        <div class="banner-content">
+            <div class="searchWrap">
+                <div class="tabs clearfix">
+                    <div data-target="tab2" class="active">找二手房</div>
+                    <div data-target="tab1">找新房</div>
+                    <div data-target="tab3">找租房</div>
+                    <div data-target="tab4">找学区房</div>
+                    <div data-target="tab5">找小区</div>
+                </div>
+                <div class="tab-contents">
+                    <div id="tab1" class="clearfix">
+                        <div class="search-left fleft">
+                            <input class="searchInput" placeholder="输入楼盘名进行搜索" type="text">
+                            <span data-href="newHomesList.html" class="searchBtn">
+                                    <a>搜索</a>
+                                </span>
+                            <ul class="tab1Box"></ul>
+                        </div>
+                        <div data-href="mapSearchNewHouse.html" class="mapSearch fright">
+                            <a>
+                                <img src="img/mapSearch.png" alt=""> 地图找房</a>
+                        </div>
+                    </div>
+                    <div id="tab2" class="active clearfix">
+                        <div class="search-left fleft">
+                            <input class="searchInput" placeholder="输入小区名查找二手房" type="text">
+                            <span class="searchBtn" data-href="secondHandHousingList.html">
+                                    <a>搜索</a>
+                                </span>
+                            <ul class="tab2Box"></ul>
+                        </div>
+                        <div data-href="mapSearchSecondHouse.html" class="mapSearch fright">
+                            <a>
+                                <img src="img/mapSearch.png" alt=""> 地图找房</a>
+                        </div>
+                    </div>
+                    <div id="tab3" class="clearfix">
+                        <div class="search-left fleft">
+                            <input class="searchInput" placeholder="输入小区名可以查找出租的房屋" type="text">
+                            <span data-href="rentalList.html" class="searchBtn">
+                                    <a>搜索</a>
+                                </span>
+                            <ul class="tab3Box"></ul>
+                        </div>
+                        <div data-href="mapSearchRent.html" class="mapSearch fright">
+                            <a>
+                                <img src="img/mapSearch.png" alt=""> 地图找房</a>
+                        </div>
+                    </div>
+                    <div id="tab4" class="clearfix">
+                        <div class="search-left fleft">
+                            <input class="searchInput" placeholder="输入小区名搜索学区房" type="text">
+                            <span data-href="newSchoolHomesList.html" class="searchBtn">
+                                    <a>搜索</a>
+                                </span>
+                            <ul class="tab4Box"></ul>
+                        </div>
+                        <div data-href="mapSearchSecondHouse.html" style="display: none" class="mapSearch fright">
+                            <a>
+                                <img src="img/mapSearch.png" alt=""> 地图找房</a>
+                        </div>
+                    </div>
+                    <div id="tab5" class="clearfix">
+                        <div class="search-left fleft">
+                            <input class="searchInput" placeholder="找小区要输入小区名" type="text">
+                            <span data-href="residentialQuartersList.html" class="searchBtn">
+                                    <a>搜索</a>
+                                </span>
+                            <ul class="tab5Box"></ul>
+                        </div>
+                        <div data-href="mapSearchSecondHouse.html" style="display: none" class="mapSearch fright">
+                            <a>
+                                <img src="img/mapSearch.png" alt=""> 地图找房</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="headline clearfix" style="height: 30px">
+                <img class="fleft" src="img/headlines.png" alt="">
+                <div class="fleft headline-swiper" style="height: 100%; width: 300px">
+                    <div class="swiper-wrapper">
+                        <!--<div class="swiper-slide">公司上市</div>
+                    <div class="swiper-slide">公司上市</div>
+                    <div class="swiper-slide">公司上市</div>--></div>
+                </div>
+            </div>
+        </div>
+        <!--撕页广告-->
+        <div id="pageflip">
+            <a href="javascript:;">
+                <div class="page-mark">
+                    <img src="img/page_flip.png">
+                    <i class="pageflip-closeBtn iconfont icon-guanbi"></i>
+                </div>
+                <div class="msg_block"></div>
+            </a>
+        </div>
+    </div>
+    <!--头部广告banner-->
+    <div class="content">
+        <div class="top-btngroup">
+            <div class="btn">
+                <a href="storesList.html">
+                    <img src="img/store.png" alt="">
+                    <div class="title">查门店</div>
+                    <div class="text">查优质门店</div>
+                </a>
+            </div>
+            <div class="btn">
+                <a href="homeOwer.html">
+                    <img src="img/entrust.png" alt="">
+                    <div class="title">在线委托</div>
+                    <div class="text">有问题我们帮你</div>
+                </a>
+            </div>
+            <div class="btn">
+                <a href="mapSearchSecondHouse.html">
+                    <img src="img/mapBlue.png" alt="">
+                    <div class="title">地图找房</div>
+                    <div class="text">地图找房</div>
+                </a>
+            </div>
+            <div class="btn">
+                <a href="encyclopedias.html">
+                    <img src="img/encyclopedias.png" alt="">
+                    <div class="title">福居百科</div>
+                    <div class="text">看百科了解更多</div>
+                </a>
+            </div>
+        </div>
+        <!--通栏广告开始-->
+        <div class="leaderboard">
+            <a href="adDetails.html">
+                <object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="111" align="center">
+                    <param name="movie" value="../video/1100S90.swf">
+                    <param name="quality" value="high">
+                    <param name="play" value="1">
+                    <embed src="../video/1100S90.swf" width="100%" height="111" align="center" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash">
+                </object>
+            </a>
+            <a href="adDetails.html">
+                <object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="111" align="center">
+                    <param name="movie" value="../video/1100S90.swf">
+                    <param name="quality" value="high">
+                    <param name="play" value="1">
+                    <embed src="../video/1100S90.swf" width="100%" height="111" align="center" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash">
+                </object>
+            </a>
+            <a href="adDetails.html">
+                <object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="111" align="center">
+                    <param name="movie" value="../video/1100S90.swf">
+                    <param name="quality" value="high">
+                    <param name="play" value="1">
+                    <embed src="../video/1100S90.swf" width="100%" height="111" align="center" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash">
+                </object>
+            </a>
+        </div>
+        <!--通栏广告结束-->
+        <!--特色开始-->
+        <div class="features clearfix" id="features">
+            <div class="feature fleft">
+                <a href="realListings.html">
+                    <img src="img/zsfy.png" alt="">
+                </a>
+            </div>
+            <div class="feature fleft">
+                <a href="agencyFee.html">
+                    <img src="img/dbf.png" alt="">
+                </a>
+            </div>
+            <div class="feature fleft">
+                <a href="guarantee.html">
+                    <img src="img/feature.png" alt="">
+                </a>
+            </div>
+        </div>
+        <!--特色结束-->
+        <!--精品新房开始-->
+        <div class="newHouse house-common">
+            <div class="top clearfix">
+                <div class="title fleft">精品新房</div>
+                <div class="more fright">
+                    <a href="newHomesList.html">更多新房
+                        <i class="iconfont icon-mjiantou"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="house-tagLine">在这里为您寻觅一个新家</div>
+            <div class="houses clearfix">
+                <!--<div class="house fleft">
+                <div class="house-img">
+                    <a href="propertyDetails.html"><img src="img/20170802174259.jpg" alt=""></a>
+                </div>
+                <div class="tags clearfix">
+                    <div class="tag fleft">标签</div>
+                    <div class="tag fleft">标签</div>
+                </div>
+                <div class="bottom-content clearfix">
+                    <div class="name fleft">
+                        故宫博物院
+                    </div>
+                    <div class="price fright" >1000000/平方</div>
+                </div>
+            </div>
+            <div class="house fleft">
+                <div class="house-img">
+                    <a href="propertyDetails.html"><img src="img/20170802174259.jpg" alt=""></a>
+                </div>
+                <div class="tags clearfix">
+                    <div class="tag fleft">标签</div>
+                    <div class="tag fleft">标签</div>
+                </div>
+                <div class="bottom-content clearfix">
+                    <div class="name fleft">
+                        故宫博物院
+                    </div>
+                    <div class="price fright" >1000000/平方</div>
+                </div>
+            </div>
+            <div class="house fleft">
+                <div class="house-img">
+                    <a href="propertyDetails.html"><img src="img/20170802174259.jpg" alt=""></a>
+                </div>
+                <div class="tags clearfix">
+                    <div class="tag fleft">标签</div>
+                    <div class="tag fleft">标签</div>
+                </div>
+                <div class="bottom-content clearfix">
+                    <div class="name fleft">
+                        故宫博物院
+                    </div>
+                    <div class="price fright" >1000000/平方</div>
+                </div>
+            </div>--></div>
+        </div>
+        <!--精品新房结束-->
+        <!--二手房开始-->
+        <div class="second-hand house-common">
+            <div class="top clearfix">
+                <div class="title fleft">二手优品</div>
+                <div class="more fright">
+                    <a href="secondHandHousingList.html">更多二手房
+                        <i class="iconfont icon-mjiantou"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="house-tagLine">生活因为宽广，才会不断延伸</div>
+            <div class="houses clearfix">
+                <!--<div class="house fleft">
+                <div class="house-img">
+                    <a href="secondHandHhousing.html"><img src="img/20170802174259.jpg" alt=""></a>
+                </div>
+                <div class="price-tag">6000万</div>
+                <div class="bottom">
+                    <div class="addr-name">
+                        <span class="addr">北京昌平</span>
+                        <span class="name">幸福家园</span>
+                    </div>
+                    <div class="house-feature clearfix">
+                        <div class="feature fleft">
+                            <span>两室一厅一卫</span>
+                            <span>90.00m<sup>2</sup></span>
+                            <span>普装</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="house fleft">
+                <div class="house-img">
+                    <a href="secondHandHhousing.html"><img src="img/20170802174259.jpg" alt=""></a>
+                </div>
+                <div class="price-tag">6000万</div>
+                <div class="bottom">
+                    <div class="addr-name">
+                        <span class="addr">北京昌平</span>
+                        <span class="name">幸福家园</span>
+                    </div>
+                    <div class="house-feature clearfix">
+                        <div class="feature fleft">
+                            <span>两室一厅一卫</span>
+                            <span>90.00m<sup>2</sup></span>
+                            <span>普装</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="house fleft">
+                <div class="house-img">
+                    <a href="secondHandHhousing.html"><img src="img/20170802174259.jpg" alt=""></a>
+                </div>
+                <div class="price-tag">6000万</div>
+                <div class="bottom">
+                    <div class="addr-name">
+                        <span class="addr">北京昌平</span>
+                        <span class="name">幸福家园</span>
+                    </div>
+                    <div class="house-feature clearfix">
+                        <div class="feature fleft">
+                            <span>两室一厅一卫</span>
+                            <span>90.00m<sup>2</sup></span>
+                            <span>普装</span>
+                        </div>
+                    </div>
+                </div>
+            </div>--></div>
+        </div>
+        <!--二手房结束-->
+        <!--通栏广告开始-->
+        <!--通栏广告开始-->
+        <div class="leaderboard">
+            <!--<a href=""><object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="111" align="center">-->
+            <!--<param name="movie" value="../video/1100S90.swf">-->
+            <!--<param name="quality" value="high">-->
+            <!--<param name="play" value="1">-->
+            <!--<param name="wmode" value="opaque">-->
+            <!--<embed wmode="opaque" src="../video/1100S90.swf" width="100%" height="111"-->
+            <!--align="center" quality="high"-->
+            <!--pluginspage="http://www.macromedia.com/go/getflashplayer"-->
+            <!--type="application/x-shockwave-flash">-->
+            <!--</embed>-->
+            <!--</object></a>-->
+            <!--<a href=""><object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="111" align="center">-->
+            <!--<param name="movie" value="../video/1100S90.swf">-->
+            <!--<param name="quality" value="high">-->
+            <!--<param name="play" value="1">-->
+            <!--<embed wmode="opaque" src="../video/1100S90.swf" width="100%" height="111"-->
+            <!--align="center" quality="high"-->
+            <!--pluginspage="http://www.macromedia.com/go/getflashplayer"-->
+            <!--type="application/x-shockwave-flash">-->
+            <!--</embed>-->
+            <!--</object></a>-->
+            <!--<a href=""><object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="111" align="center">-->
+            <!--<param name="movie" value="../video/1100S90.swf">-->
+            <!--<param name="quality" value="high">-->
+            <!--<param name="play" value="1">-->
+            <!--<embed  wmode="opaque" src="../video/1100S90.swf" width="100%" height="111"-->
+            <!--align="center" quality="high"-->
+            <!--pluginspage="http://www.macromedia.com/go/getflashplayer"-->
+            <!--type="application/x-shockwave-flash">-->
+            <!--</embed>-->
+            <!--</object></a>-->
+        </div>
+        <!--通栏广告结束-->
+        <!--通栏广告结束-->
+        <!--租房开始-->
+        <div class="rental house-common">
+            <div class="top clearfix">
+                <div class="title fleft">精品租房</div>
+                <div class="more fright">
+                    <a href="rentalList.html">更多租房
+                        <i class="iconfont icon-mjiantou"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="house-tagLine">与其等待，不如坐享繁华</div>
+            <div class="houses clearfix">
+                <!--<div class="house fleft">
+                <div class="house-img">
+                    <a href="rentalDetails.html"><img src="img/20170802174259.jpg" alt=""></a>
+                </div>
+                &lt;!&ndash;<div class="price-tag">6000万</div>&ndash;&gt;
+                <div class="bottom">
+                    <div class="addr-name">
+                        <span class="addr">北京昌平</span>
+                        <span class="name">幸福家园</span>
+                    </div>
+                    <div class="house-feature clearfix">
+                        <div class="feature fleft">
+                            <span>两室一厅一卫</span>
+                            <span>90.00m<sup>2</sup></span>
+                            <span>普装</span>
+                        </div>
+                        <div class="price fright">
+                            1300元/月
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="house fleft">
+                <div class="house-img">
+                    <a href="rentalDetails.html"><img src="img/20170802174259.jpg" alt=""></a>
+                </div>
+                &lt;!&ndash;<div class="price-tag">6000万</div>&ndash;&gt;
+                <div class="bottom">
+                    <div class="addr-name">
+                        <span class="addr">北京昌平</span>
+                        <span class="name">幸福家园</span>
+                    </div>
+                    <div class="house-feature clearfix">
+                        <div class="feature fleft">
+                            <span>两室一厅一卫</span>
+                            <span>90.00m<sup style="left:-0.3rem;font-size: 10px;">2</sup></span>
+                            <span>普装</span>
+                        </div>
+                        <div class="price fright">
+                            1300元/月
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="house fleft">
+                <div class="house-img">
+                    <a href="rentalDetails.html"><img src="img/20170802174259.jpg" alt=""></a>
+                </div>
+                &lt;!&ndash;<div class="price-tag">6000万</div>&ndash;&gt;
+                <div class="bottom">
+                    <div class="addr-name">
+                        <span class="addr">北京昌平</span>
+                        <span class="name">幸福家园</span>
+                    </div>
+                    <div class="house-feature clearfix">
+                        <div class="feature fleft">
+                            <span>两室一厅一卫</span>
+                            <span>90.00m<sup>2</sup></span>
+                            <span>普装</span>
+                        </div>
+                        <div class="price fright">
+                            1300元/月
+                        </div>
+                    </div>
+                </div>
+            </div>--></div>
+        </div>
+        <!--租房结束-->
+        <!--通栏广告开始-->
+        <!--通栏广告开始-->
+        <div class="leaderboard">
+            <!--<a href=""><object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="111" align="center">-->
+            <!--<param name="movie" value="../video/1100S90.swf">-->
+            <!--<param name="quality" value="high">-->
+            <!--<param name="play" value="1">-->
+            <!--<param name="wmode" value="opaque">-->
+            <!--<embed wmode="opaque" src="../video/1100S90.swf" width="100%" height="111"-->
+            <!--align="center" quality="high"-->
+            <!--pluginspage="http://www.macromedia.com/go/getflashplayer"-->
+            <!--type="application/x-shockwave-flash">-->
+            <!--</embed>-->
+            <!--</object></a>-->
+            <!--<a href=""><object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="111" align="center">-->
+            <!--<param name="movie" value="../video/1100S90.swf">-->
+            <!--<param name="quality" value="high">-->
+            <!--<param name="play" value="1">-->
+            <!--<embed wmode="opaque" src="../video/1100S90.swf" width="100%" height="111"-->
+            <!--align="center" quality="high"-->
+            <!--pluginspage="http://www.macromedia.com/go/getflashplayer"-->
+            <!--type="application/x-shockwave-flash">-->
+            <!--</embed>-->
+            <!--</object></a>-->
+            <!--<a href=""><object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="111" align="center">-->
+            <!--<param name="movie" value="../video/1100S90.swf">-->
+            <!--<param name="quality" value="high">-->
+            <!--<param name="play" value="1">-->
+            <!--<embed  wmode="opaque" src="../video/1100S90.swf" width="100%" height="111"-->
+            <!--align="center" quality="high"-->
+            <!--pluginspage="http://www.macromedia.com/go/getflashplayer"-->
+            <!--type="application/x-shockwave-flash">-->
+            <!--</embed>-->
+            <!--</object></a>-->
+        </div>
+        <!--通栏广告结束-->
+        <!--通栏广告结束-->
+    </div>
+    <div class="right-tools">
+        <div></div>
+        <a class="richeng" href="javascript:;">
+            <i class="iconfont icon-rili"></i> 日程
+            <div>我的日程
+                <div id="triangle-right"></div>
+            </div>
+        </a>
+        <a class="guanzhu" href="javascript:;">
+            <i class="iconfont icon-shoucang1"></i> 关注
+            <div>我的关注
+                <div id="triangle-right"></div>
+            </div>
+        </a>
+        <a class="maifang" href="homeOwer.html">
+            <i class="iconfont icon-fangzi"></i> 卖房
+            <div>在线卖房
+                <div id="triangle-right"></div>
+            </div>
+        </a>
+        <a class="gongju" href="tool.html">
+            <i class="iconfont icon-toolsbar"></i> 工具
+            <div>房贷计算器
+                <div id="triangle-right"></div>
+            </div>
+        </a>
+        <a class="app">
+            <i class="iconfont icon-z-phone"></i>
+            <div class="erweima">
+                <img style="width: 100%;height: 100%" src="img/app.png" alt="">
+            </div>APP</a>
+    </div>
+    <style>
+        .right-tools {
+            position: fixed;
+            right: 0px;
+            top: 50%;
+            margin-top: -295px;
+            z-index: 9999;
+            height: 480px;
+            border-right-color: transparent;
+            background: white;
+            width: 40px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .richeng {
+            margin-top: 25px;
+        }
+
+        .right-tools a {
+            display: block;
+            margin-bottom: 45px;
+            padding: 4px 0;
+            position: relative;
+        }
+
+        .right-tools a:hover {
+            background: #5f1985;
+            color: #fff;
+        }
+
+        .right-tools a:hover>div {
+            display: block;
+        }
+
+        .richeng>div,
+        .maifang>div,
+        .guanzhu>div,
+        .gongju>div {
+            display: none;
+            position: absolute;
+            right: 48px;
+            top: 6px;
+            background: #5f1985;
+            width: 80px;
+            padding: 10px;
+            color: #fff;
+            border-radius: 3px;
+        }
+
+        .right-tools i {
+            font-size: 25px;
+        }
+
+        .app {
+            position: relative;
+        }
+
+        .erweima {
+            position: absolute;
+            right: 100%;
+            width: 200px;
+            height: 200px;
+            background: red;
+            top: 50%;
+            margin-top: -100px;
+            display: none;
+        }
+
+        .app:hover .erweima {
+            display: block;
+        }
+
+        #triangle-right {
+            position: absolute;
+            top: 13px;
+            right: -8px;
+            width: 0;
+            height: 0;
+            border-top: 6px solid transparent;
+            border-left: 8px solid #5f1985;
+            border-bottom: 6px solid transparent;
+        }
+    </style>
+    <!--  友情链接开始-->
+    <style>
+        .thirdPartyLogin a {
+            cursor: pointer;
+        }
+
+        .preview {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 99999;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+        }
+
+        .preview .spinner {
+            left: 50% !important;
+            top: 50% !important;
+        }
+    </style>
+    <div class="friendships-links">
+        <div class="links">
+            <div class="title">友情链接</div>
+            <div class="link-list clearfix">
+                <!-- <a class="fleft">呼和浩特</a>
+    <a class="fleft">呼和浩特</a>
+    <a class="fleft">呼和浩特</a>
+    <a class="fleft">呼和浩特</a>
+    <a class="fleft">呼和浩特出租房</a>
+    <a class="fleft">呼和浩特出租房</a>
+    <a class="fleft">呼和浩特</a>
+    <a class="fleft">呼和浩特出租房</a>
+    <a class="fleft">呼和浩特</a>
+    <a class="fleft">呼和浩特出租房</a>
+    <a class="fleft">呼和浩特</a>
+    <a class="fleft">呼和浩特出租房</a>
+    <a class="fleft">呼和浩特出租房</a>
+    <a class="fleft">呼和浩特出租房</a>-->
+            </div>
+        </div>
+    </div>
+    <!--  友情链接结束-->
+    <div class="footer">
+        <div class="about" style="">
+            <a href="aboutus.html">关于我们</a>
+            <a href="concat.html">联系方式</a>
+            <a href="privacy.html">隐私声明</a>
+            <a href="copyright.html">版权声明</a>
+            <a href="law.html">法律保障</a>
+        </div>
+        <div class="tips">温馨提示：呼和浩特房地产网最新购房信息请及时查看呼和浩特房地产业网官方网站【福居网】</div>
+        <div class="address">地 址： 呼和浩特市赛罕区恩和大厦1909室 电 话:400-898-1018</div>
+        <div class="website-filing">北京福居网网络科技有限公司 Copyright © 2013-2017 FOOJU Corporation, All Rights Reserved 福居网 版权所有|
+            <span>京ICP备13012924号-1</span>
+        </div>
+        <div class="check360">
+            <script type="text/javascript">
+                var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F1ea35cece8886d75ab6152ea22302dd0' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+            <!--<script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1ea35cece8886d75ab6152ea22302dd0";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>-->
+            <script type="text/javascript">
+                var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cspan id='cnzz_stat_icon_1000295773'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/z_stat.php%3Fid%3D1000295773%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+            <a key="59097933efbfb0434cbb0b8e" logo_size="124x47" logo_type="business" href="http://www.anquan.org">
+                <script src="//static.anquan.org/static/outer/js/aq_auth.js"></script>
+            </a>
+            <!--可信网站图片LOGO安装开始-->
+            <script src="http://kxlogo.knet.cn/seallogo.dll?sn=e15091711011760451pram000000&size=0"></script>
+            <!--可信网站图片LOGO安装结束-->
+            <a id="___szfw_logo___" href="https://credit.szfw.org/CX20150917011351110163.html" target="_blank">
+                <img src="http://icon.szfw.org/cert.png" border="0">
+            </a>
+            <script type="text/javascript">
+                (function() {
+                    document.getElementById('___szfw_logo___').oncontextmenu = function() {
+                        return false;
+                    }
+                })();
+            </script>
+        </div>
+    </div>
+    <div class="loginBox">
+        <div class="loginPage_content">
+            <span class="iconfont icon-guanbi close"></span>
+            <div class="main_content">
+                <div class="main_content_top clearfix">
+                    <span class="fleft">登录</span>
+                    <a href="register.html" class="fright">没有账号，立即注册</a>
+                </div>
+                <div class="main_content_middle">
+                    <form id="loginform">
+                        <div class="one">
+                            <i class="iconfont icon-z-phone"></i>
+                            <input type="text" placeholder="请输入手机号" id="phone">
+                        </div>
+                        <div class="two">
+                            <i class="iconfont icon-mima"></i>
+                            <input type="password" placeholder="请输入密码" id="password">
+                        </div>
+                        <a class="three">
+                            <input type="button" value="登录" id="login">
+                        </a>
+                        <a class="four" href="passwordRetrieval.html">忘记密码？</a>
+                    </form>
+                    <div class="thirdPartyLogin clearfix">
+                        <a id="qq" class="fleft">
+                            <img src="img/qq.png" alt="">
+                            <br>
+                            <span>qq登录</span>
+                        </a>
+                        <a id="weixin" class="fleft">
+                            <img src="img/weixin.png" alt="">
+                            <br>
+                            <span>微信登录</span>
+                        </a>
+                        <a id="weibo" class="fleft">
+                            <img src="img/weibo.png" alt="">
+                            <br>
+                            <span>微博登录</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="preview" class="preview"></div>
+    <!--区域下拉框-->
+    <style>
+        #selectBox {
+            z-index: 998;
+            display: none;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+
+        .selectBox {
+            width: 640px;
+            background: #fff;
+            z-index: 999;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            display: none;
+            margin-left: -320px;
+            margin-top: -160px;
+            padding: 40px;
+            text-align: left;
+            display: none;
+        }
+
+        .showings_header {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        .showings_header span {
+            display: block;
+            font-size: 22px;
+            color: #333;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .showings_header i {
+            cursor: pointer;
+            display: block;
+            width: 30px;
+            height: 30px;
+            /*color: #fff;*/
+            border: 1px solid #fff;
+            background: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            /*transform: translate(665px,-82px);
+    -webkit-transform: translate(665px,-82px);
+    -moz-transform: translate(665px,-82px);
+    -ms-transform: translate(665px,-82px);*/
+        }
+
+        .selectBox ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 280px;
+        }
+
+        .selectBox ul span {
+            color: #999;
+        }
+
+        .selectBox ul li {
+            margin: 10px 0;
+        }
+
+        .selectBox ul li a {
+            color: #333;
+            cursor: pointer;
+        }
+
+        .showings_c_h {
+            margin: 20px 0;
+        }
+
+        .showings_c_h a {
+            color: #333;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .showings_c_h a:hover,
+        .selectBox ul li a:hover {
+            cursor: pointer;
+            color: #c30d23;
+        }
+    </style>
+    <div id="selectBox"></div>
+    <div class="selectBox">
+        <div class="showings_header">
+            <span>选择区县</span>
+            <i class="iconfont icon-chahao"></i>
+        </div>
+        <div class="showings_content clearfix">
+            <div class="showings_c_h">
+                <a data-rid="0">呼和浩特</a>
+            </div>
+            <div class="fleft">
+                <ul></ul>
+            </div>
+        </div>
+    </div>
+    <script id="city" type="text/html">{{each data as item i}}
+    <li class="clearfix">
+        <span class="fleft">{{item.key}}</span>
+        <div style="margin-left: 20px;">
+            {{each item.list as v}}
+            <a data-rId="{{v.id}}">{{v.area}}</a>
+            {{/each}}
+            <!--<a href="index.html?city=和林格尔县">和林格尔县</a>-->
+        </div>
+    </li>
+    {{/each}}</script>
+    <div class="duilianLeft duilianAd">
+        <a href="adDetails.html">
+            <object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="111" align="center">
+                <param name="movie" value="../video/1.swf">
+                <param name="quality" value="high">
+                <param name="play" value="1">
+                <embed wmode="opaque" src="../video/1.swf" width="90" height="270" align="center" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash">
+            </object>
+        </a>
+        <div id="close" class="close">关闭</div>
+    </div>
+    <div class="duilianRight duilianAd">
+        <a href="adDetails.html">
+            <object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100%" height="111" align="center">
+                <param name="movie" value="../video/1.swf">
+                <param name="quality" value="high">
+                <param name="play" value="1">
+                <embed wmode="opaque" src="../video/1.swf" width="90" height="270" align="center" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash">
+            </object>
+        </a>
+        <div id="close" class="close">关闭</div>
+    </div>
+    <style>
+        .duilianAd {
+            position: fixed;
+            z-index: 1000;
+            width: 90px;
+            height: 270px;
+            top: 50%;
+            /*background: red;*/
+            margin-top: -175px;
+            cursor: pointer;
+            display: none;
+        }
+
+        .duilianAd img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .duilianLeft {
+            left: 0;
+        }
+
+        .duilianRight {
+            right: 60px;
+        }
+
+        .duilianAd .close {
+            position: absolute;
+            left: 0;
+            top: 100%;
+            width: 90px;
+            box-sizing: border-box;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #333333;
+            background: white;
+            border: 1px solid #999999;
+        }
+    </style>
+</div>
+<script type="text/html" id="newHouseTmpl">{{each news as item i}} {{if i
+< 3}} <div class="house fleft">
+    <div class="house-img">
+        <a href="propertyDetails.html?id={{item.id}}">
+            <img src="http://www.fooju.cn{{item.pic}}" alt="">
+        </a>
+    </div>
+    <div class="tags clearfix">
+        {{each item.lable as la i}}
+        <span style="background: {{la.bg}};color:{{la.color}}" class="tag fleft">{{la.name}}</span>{{/each}}
+
+    </div>
+    <div class="bottom-content clearfix">
+        <div class="name fleft">
+            {{item.title}}
+        </div>
+        <div class="price fright">{{item.average_price}}元/平</div>
+    </div>
+</div>
+{{/if}} {{/each}}
+</script>
+<script type="text/html" id="retlTmpl">{{each used as item i }} {{if i
+< 3}} <div style="width: 342px;overflow: hidden;white-space: nowrap;" class="house fleft">
+    <div class="house-img">
+        <a href="secondHandHhousing.html?id={{item.id}}">
+            <img src="http://www.fooju.cn{{item.pic}}" alt="">
+        </a>
+    </div>
+    <div class="price-tag">{{item.total_price}}万</div>
+    <div class="bottom">
+        <div class="addr-name">
+            {{if item.address !== ''}}
+            <span class="addr">{{item.address}}</span>
+            {{/if}}
+            <span atitle="{{item.title}}" class="name">{{item.title}}</span>
+        </div>
+        <div class="house-feature clearfix">
+            <div class="feature fleft">
+                <span>{{item.bedroom}}室{{item.livingroom}}厅{{item.wc}}卫</span>
+                <span>{{item.built_area}}㎡</span>
+                <span>{{item.decoration}}</span>
+            </div>
+        </div>
+    </div>
+</div>
+{{/if}} {{/each}}
+</script>
+<script type="text/html" id="rentTmpl">{{each retal as item i}} {{if i
+< 3}} <div class="house fleft">
+    <div class="house-img">
+        <a href="rentalDetails.html?id={{item.id}}">
+            <img src="http://www.fooju.cn{{item.pic}}" alt="">
+        </a>
+    </div>
+    <!--<div class="price-tag">6000万</div>-->
+    <div class="bottom">
+        <div class="addr-name">
+            <span class="addr">{{item.address}}</span>
+            <span class="name">{{item.title}}</span>
+        </div>
+        <div class="house-feature clearfix">
+            <div class="feature fleft">
+                <span>{{item.bedroom}}室{{item.livingroom}}厅{{item.wc}}卫</span>
+                <span>{{item.built_area}}㎡</span>
+                <span>{{item.decoration}}</span>
+            </div>
+            <div class="price fright">
+                {{item.rent}}{{item.rent_type}}
+            </div>
+        </div>
+    </div>
+</div>
+{{/if}} {{/each}}
+</script>
+<script type="text/html" id="indexAd">{{each datas as v i}}
+<div class="feature fleft">
+    {{if i == 0}}
+    <a href="wikipediaDetails.html?id={{v.id}}">
+        <img src="img/zhenshifangyuan.png" alt="">
+        <div class="featureText">
+            {{v.title}}
+        </div>
+    </a>
+    {{/if}} {{if i == 1}}
+    <a href="wikipediaDetails.html?id={{v.id}}">
+        <img src="img/daibanfei.png" alt="">
+        <div class="featureText">
+            {{v.title}}
+        </div>
+    </a>
+    {{/if}} {{if i == 2}}
+    <a href="wikipediaDetails.html?id={{v.id}}">
+        <img src="img/baozhang.png" alt="">
+        <div class="featureText">
+            {{v.title}}
+        </div>
+    </a>
+    {{/if}}
+</div>
+{{/each}}</script>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="lib/swiper-3.4.2.jquery.min.js"></script>
+<script src="lib/jquery.scaleImg.js"></script>
+<script src="lib/getUrlParam.js"></script>
+<script src="lib/api.js"></script>
+<script src="js/template-web.js"></script>
+<script src="js/select.js"></script>
+<script src="lib/imgFit.js"></script>
+<script src="js/index.js"></script>
+<script src="lib/spin.js"></script>
+<script>
+    api.loading();
+    var tab1Old = ""
+    $("#tab1 .searchInput").keyup(function() {
+        //console.log($(this).val()+"==="+tab1Old)
+        if ($(this).val() !== tab1Old) {
+            tab1Old = $(this).val();
+            $.getJSON(api.paramToUrl(api.new_lists, {
+                title: tab1Old
+            }), function(data) {
+                var html = "";
+                $.each(data.data, function(index, item) {
+                    html += "<li data-id='" + item.id + "'>" + item.title + "</li>";
+                })
+                $(".tab1Box").html(html);
+                setTimeout(function() {
+                    $(".tab1Box").css("display", "block");
+                }, 1000)
+            })
+        }
+        if ($(this).val() == "") {
+            $(".tab1Box").css("display", "none");
+        }
+    });
+    $("#tab1").on("click", ".search-left li", function() {
+        api.to("newHomesList.html?q=" + $(this).text());
+        $(".tab1Box").css("display", "none");
+    });
+    $("#tab2 .searchInput").keyup(function() {
+        //console.log($(this).val()+"==="+tab1Old)
+        if ($(this).val() !== tab1Old) {
+            tab1Old = $(this).val();
+            $.getJSON(api.paramToUrl(api.used_lists, {
+                title: tab1Old
+            }), function(data) {
+                var html = "";
+                $.each(data.data, function(index, item) {
+                    html += "<li data-id='" + item.id + "'>" + item.title + "</li>";
+                })
+                $(".tab2Box").html(html);
+                setTimeout(function() {
+                    $(".tab2Box").css("display", "block");
+                }, 1000)
+            })
+        }
+        if ($(this).val() == "") {
+            $(".tab2Box").css("display", "none");
+        }
+    });
+    $("#tab2").on("click", ".search-left li", function() {
+        api.to("secondHandHousingList.html?q=" + $(this).text());
+        $(".tab2Box").css("display", "none");
+    });
+    $("#tab3 .searchInput").keyup(function() {
+        //console.log($(this).val()+"==="+tab1Old)
+        if ($(this).val() !== tab1Old) {
+            tab1Old = $(this).val();
+            $.getJSON(api.paramToUrl(api.retal_lists, {
+                title: tab1Old
+            }), function(data) {
+                var html = "";
+                $.each(data.data, function(index, item) {
+                    html += "<li data-id='" + item.id + "'>" + item.title + "</li>";
+                })
+                $(".tab3Box").html(html);
+                setTimeout(function() {
+                    $(".tab3Box").css("display", "block");
+                }, 1000)
+            })
+        }
+        if ($(this) == "") {
+            $(".tab3Box").css("display", "none");
+        }
+    });
+    $("#tab3").on("click", ".search-left li", function() {
+        api.to("rentalList.html?q=" + $(this).text());
+        $(".tab3Box").css("display", "none");
+    });
+    $("#tab4 .searchInput").keyup(function() {
+        //console.log($(this).val()+"==="+tab1Old)
+        if ($(this).val() !== tab1Old) {
+            tab1Old = $(this).val();
+            $.getJSON(api.paramToUrl(serverUrl + "s=Village/school/h_type/used", {
+                title: tab1Old
+            }), function(data) {
+                var html = "";
+                $.each(data.data, function(index, item) {
+                    html += "<li data-id='" + item.id + "'>" + item.title + "</li>";
+                })
+                $(".tab4Box").html(html);
+                setTimeout(function() {
+                    $(".tab4Box").css("display", "block");
+                }, 1000)
+            })
+        }
+        if ($(this) == "") {
+            $(".tab4Box").css("display", "none");
+        }
+    });
+    $("#tab4").on("click", ".search-left li", function() {
+        api.to("secondSchoolHomesList.html?q=" + $(this).text());
+        $(".tab4Box").css("display", "none");
+    });
+    $("#tab5 .searchInput").keyup(function() {
+        //console.log($(this).val()+"==="+tab1Old)
+        if ($(this).val() !== tab1Old) {
+            tab1Old = $(this).val();
+            $.getJSON(api.paramToUrl(api.village_lists, {
+                title: tab1Old
+            }), function(data) {
+                var html = "";
+                $.each(data.data, function(index, item) {
+                    html += "<li data-id='" + item.id + "'>" + item.title + "</li>";
+                })
+                $(".tab5Box").html(html);
+                setTimeout(function() {
+                    $(".tab5Box").css("display", "block");
+                }, 1000)
+            })
+        }
+        if ($(this) == "") {
+            alert(1)
+            $(".tab5Box").css("display", "none");
+        }
+    });
+    $("#tab5").on("click", ".search-left li", function() {
+        api.to("residentialQuartersList.html?q=" + $(this).text());
+        $(".tab5Box").css("display", "none");
+    });
+    $(".searchInput").focus(function() {
+        if ($(this).val() != "") {
+            setTimeout(function() {
+                $(".searchInput").siblings("ul").css("display", "block");
+            }, 1000)
+        }
+    });
+    $(".searchInput").blur(function() {
+        setTimeout(function() {
+            $(this).siblings("ul").css("display", "none");
+        }, 500)
+    })
+
+    setTimeout(function() {
+        $.getJSON(api.paramToUrl(api.adLists, {
+            type: 3
+        }), function(data) {
+            if (data.code === 101) {
+                $(".topAd").hide();
+
+                $("html").css("overflow", "auto");
+                $("body").css("overflow", "auto");
+                $("body").css("height", "auto");
+                $(".right-tools").show();
+            } else {
+                $(".topAd").show();
+                var ad = data.data[0];
+                $(".topAd").find("img").attr("src", api.serverUrl + ad.picurl).attr("data-id", ad.ad_url);
+                console.log(data)
+                topAd();
+            }
+            $(".container").show();
+            indexLunbo();
+        })
+        /*撕页广告*/
+        $.getJSON(api.paramToUrl(api.adLists, {
+            type: 6
+        }), function(data) {
+            if (data.code === 101) {
+                $("#pageflip").hide();
+            } else {
+                var ad = data.data[0];
+                $(".msg_block").css("background-image", "url(" + api.serverUrl + ad.picurl + ")")
+                $("#pageflip>a").attr("data-href", ad.ad_url || "")
+            }
+        })
+    }, 2000)
+    setTimeout(function() {
+        $.getJSON((api.paramToUrl(serverUrl + "s=Ency/encyPcIndex")), function(data) {
+            if (data.code === 200) {
+                $("#features").html(template("indexAd", data));
+            }
+        })
+    }, 1000)
+
+    function indexLunbo() {
+        /*首页轮播图*/
+        $.getJSON(api.paramToUrl(api.adLists, {
+            type: 0,
+            position: 0
+        }), function(data) {
+            // var str= '<div class="swiper-slide" data-id="{id}" ><img src="{url}" alt=""></div>'
+            var str = '<div class="swiper-slide" data-id="{id}" ><img src="{url}" alt=""></div>'
+            var html = "";
+            if (data.code === 200) {
+                $.each(data.data, function(index, item) {
+                    html += str.replace(/{url}/, api.serverUrl + item.picurl).replace(/{id}/, item.ad_url)
+                })
+                $(".top-ad-swiper .swiper-wrapper").html(html);
+                initTopSwiper();
+            }
+        })
+    }
+
+    $(".topAd img").click(function() {
+        var id = $(this).attr("data-id")
+        api.to(id)
+    })
+    $("#pageflip>a").click(function() {
+        api.to($("#pageflip>a").attr("data-href"))
+    })
+
+    function newList(url, callback) {
+        var obj = {};
+        var pageNum = 1;
+        var pagesize = 3;
+        obj.page_num = pageNum;
+        obj.page_size = pagesize;
+        $.getJSON(api.paramToUrl(url, obj), function(data) {
+            callback(data)
+            $(".house-img img").imgScale({
+                aniTime: 500,
+                scale: 1.08
+            });
+        });
+    }
+    newList(api.recommend, function(data) {
+        var obj = {};
+        obj.news = data.new;
+        obj.retal = data.retal;
+        obj.used = data.used
+        if (obj.news.length === 0) {
+            $(".newHouse").remove();
+        }
+        if (obj.retal.length === 0) {
+            $(".rental").remove();
+        }
+        if (obj.used.length === 0) {
+            $(".second-hand").remove();
+
+        }
+        $(".newHouse .houses").html(template("newHouseTmpl", obj));
+        $(".second-hand .houses").html(template("retlTmpl", obj));
+        $(".rental .houses").html(template("rentTmpl", obj));
+        api.loadingHide();
+        $(".second-hand .houses").find(".house").each(function(index, item) {
+            var addr = $(item).find(".addr");
+            if (addr.text() == "") {
+                addr.remove();
+            }
+
+        })
+
+    })
+    /*      newList(api.used_lists,function (data) {
+     $(".second-hand .houses").html(template("retlTmpl",data));
+     })
+     newList(api.retal_lists,function (data) {
+     $(".rental .houses").html(template("rentTmpl",data));
+     })*/
+    function initTopBanner(isResize) {
+        var topBanner = document.querySelector(".top-banner");
+        var header2 = document.querySelector(".header");
+        var aHeight = $(window).height() - header2.offsetHeight;
+        var aWidth = $(window).width();
+        topBanner.style.height = aHeight + "px";
+        $(".top-ad-swiper  img").each(function(index, item) {
+            imgFit(item, aWidth, aHeight)
+        })
+    };
+    //    initTopBanner();
+    $(window).resize(function() {
+        initTopBanner(true);
+    })
+</script>
+<script>
+    /*处理点击banner跳转*/
+    /*$(".mask").click(function () {
+     console.log($(".top-ad-swiper .swiper-slide-active").html());
+     })*/
+    /*   $(".top-ad-swiper .swiper-wrapper").click(function () {
+     window.location.href="adDetails.html";
+     });*/
+    $(".right-tools").hide();
+    $("#pageflip").on("click", ".page-mark i", function(ev) {
+        var event = window.event || ev;
+        event.stopPropagation();
+        $("#pageflip").css("display", "none");
+    });
+    /*撕页*/
+    function initPageFlip() {
+        var pageflipImg = $("#pageflip img");
+        var msgBlock = $(".msg_block");
+        var pageflipImgW = pageflipImg.width();
+        var pageflipImgH = pageflipImg.height();
+        var msgBlockW = msgBlock.width();
+        var msgBlockH = msgBlock.height();
+        var isClose = false; /*撕页是否关闭*/
+        /*撕页广告关闭按钮*/
+        $(".pageflip-closeBtn").click(function(e) {
+            isClose = true;
+            $("#pageflip img,.msg_block").stop().animate({
+                width: 0 + "px",
+                height: 0 + "px"
+            }, 100);
+            e.stopPropagation();
+        })
+
+        /*撕页广告悬浮事件*/
+        $("#pageflip").hover(function() {
+            if (isClose) return;
+            pageflipImg.stop().animate({
+                width: '80px',
+                height: '85px'
+            }, 430);
+            $(".msg_block").stop().animate({
+                width: '80px',
+                height: '85px'
+            }, 500);
+        }, function() {
+            if (isClose) return;
+            pageflipImg.stop().animate({
+                width: pageflipImgW + 'px',
+                height: pageflipImgH + 'px'
+            }, 220);
+            $(".msg_block").stop().animate({
+                width: msgBlockW + "px",
+                height: msgBlockH + "px"
+            }, 200);
+        });
+    };
+    //初始化tab选项卡
+    function ininTabs() {
+        $(".tabs>div").click(function() {
+            var id = $(this).attr("data-target");
+            $("#" + id).addClass("active").siblings().removeClass("active");
+            $(this).addClass("active").siblings().removeClass("active");
+        })
+    }
+    /*初始化swiper*/
+    function initSwiper() {
+        var headlineSwiper = new Swiper('.headline-swiper', {
+            direction: 'vertical',
+            loop: true,
+            autoplay: 2000,
+            autoplayDisableOnInteraction: false
+        })
+    }
+
+    function initTopSwiper(isNotOnly) {
+        var adSwiper = new Swiper('.top-ad-swiper', {
+            direction: 'horizontal',
+            loop: isNotOnly,
+            autoplay: 2000,
+            autoplayDisableOnInteraction: false,
+            onImagesReady: function() {
+                var topBanner = document.querySelector(".top-banner");
+                var header2 = document.querySelector(".header");
+                var aHeight = $(window).height() - header2.offsetHeight;
+                var aWidth = $(window).width();
+                topBanner.style.height = aHeight + "px";
+                $(".top-ad-swiper  img").each(function(index, item) {
+                    imgFit(item, aWidth, aHeight)
+                })
+            },
+            onInit: function() {
+                //                console.log(1);
+                //                setSwiperImgPosition()
+            }
+        });
+
+    }
+
+    function setSwiperImgPosition() {
+        $(".top-ad-swiper img").each(function(index, item) {
+            $(item).css({
+                "margin-left": -$(item).width() / 2,
+                left: "50%"
+            })
+            $(".top-banner").css({
+                "width": $(item).width(),
+                "margin": "0 auto"
+            });
+        })
+    }
+    //    setSwiperImgPosition();
+    /*顶部全屏广告*/
+    function topAd() {
+        var time = 500;
+        var he = $(window).height();
+        $(".topAd").css({
+            height: he
+        })
+
+        function topClose() {
+            var height = $(".topAd").height();
+            $(".topAd").animate({
+                marginTop: -height
+            }, time, function() {
+                $(".topAd").hide();
+                $("html").css("overflow", "auto");
+                $("body").css("overflow", "auto");
+                $("body").css("height", "auto");
+                $(".right-tools").show();
+            });
+        }
+        /*全屏广告定时消失*/
+        setTimeout(function() {
+            topClose();
+        }, 2000);
+        //关闭按钮关闭广告
+        $(".closeBtn").click(function() {
+            topClose();
+        })
+    }
+    initSwiper();
+    //    topAd();
+    ininTabs();
+    initPageFlip();
+</script>
+<script>
+    $(".house-img img").imgScale({
+        aniTime: 500,
+        scale: 1.08
+    });
+
+    //设置banner的高度
+    $(document).ready(function() {
+        var topBanner = document.querySelector(".top-banner");
+        var header2 = document.querySelector(".header2");
+        var aHeight = $(window).height() - header2.offsetHeight;
+        topBanner.style.height = aHeight + "px";
+        $(".swiper-wrapper img").css("height", aHeight + "px");
+    });
+    /**/
+    $(".searchBtn").click(function() {
+        api.to($(this).attr("data-href") + "?q=" + $(this).siblings(".searchInput").val())
+    })
+    $(function() {
+        $(document).on('click', '.mapSearch', function() {
+            api.to($(this).attr("data-href") + "?q=" + $(this).siblings(".search-left").find(".searchInput").val())
+        })
+    })
+    $(".searchInput").keydown(function(e) {
+        if (e.keyCode === 13) {
+            /*                api.to($(this).attr("data-href")+"?q="+$(this).siblings(".searchInput").val())*/
+            api.to($(this).siblings(".searchBtn").attr("data-href") + "?q=" + $(this).val())
+
+        }
+    })
+</script>
+</body>
+</html>
